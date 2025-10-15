@@ -1,4 +1,4 @@
-<div class="category-card">
+<div class="category-card" (click)="goToQuizPage(category.id)">
   <div class="category-icon">{{ category.icon }}</div>
   <h3 class="category-name">{{ category.name }}</h3>
   <p class="category-description">{{ category.description }}</p>
