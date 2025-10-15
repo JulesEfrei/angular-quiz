@@ -1,0 +1,21 @@
+.category-card {
+  background: #f0f0f0;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+
+  .category-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  .category-name {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+  }
+
+  .category-description {
+    font-size: 14px;
+    margin: 0;
+  }
+}
