@@ -1,0 +1,9 @@
+<div class="categories-container">
+  <h1 class="categories-title">Choisissez votre catégorie</h1>
+  <div class="categories-grid">
+    <app-category-card
+      *ngFor="let category of categories"
+      [category]="category">
+    </app-category-card>
+  </div>
+</div>
