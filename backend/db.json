@@ -1,25 +1,25 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Game of Thrones",
       "description": "L'univers épique de Westeros",
       "icon": "🐉"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Bob l'éponge",
       "description": "Les aventures à Bikini Bottom",
       "icon": "🧽"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Les capitales du monde",
       "description": "Géographie mondiale",
       "icon": "🌍"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Les spécialités culinaires du monde",
       "description": "Voyage gastronomique",
       "icon": "🍽️"
