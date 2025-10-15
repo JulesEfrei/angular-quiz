@@ -29,6 +29,7 @@ export class HomeComponent implements OnInit {
   }
 
   confirmPseudo() {
+    this.authService.user = { id: 0, username: this.playerName };
     this.isPlayerNameConfirmed = true;
     this.router.navigate(['/categories']);
   }
