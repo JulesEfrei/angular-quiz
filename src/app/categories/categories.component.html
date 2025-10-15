@@ -1,8 +1,21 @@
 <div class="categories-container">
   <h1 class="categories-title">Choisissez votre catégorie</h1>
+
+  <form class="search-form" (ngSubmit)="filterCategories()">
+    <div class="search-input-wrapper">
+      <input
+        type="text"
+        name="searchTerm"
+        [(ngModel)]="searchTerm"
+        placeholder="Rechercher une catégorie">
+      <button type="button" class="clear-btn" (click)="clearSearch()" *ngIf="searchTerm">✕</button>
+    </div>
+    <button type="submit">Rechercher</button>
+  </form>
+
   <div class="categories-grid">
     <app-category-card
-      *ngFor="let category of categories"
+      *ngFor="let category of filteredCategories"
       [category]="category">
     </app-category-card>
   </div>
